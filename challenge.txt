@@ -1,0 +1,17 @@
+Your challenge is to write a function/method, named four_letters_in_common or fourLettersInCommon that
+
+1) takes two arguments—a “source” English word in a string, and an English dictionary supplied in an array
+2) returns a list of English words as an array
+
+The words returned are those from the dictionary that have four consecutive letters (or more) in common with the “source” word.  For example, the word MATTER has the four letters in a row “ATTE” in common ATTEND.
+
+For this challenge, you may use either Java, C#, Javascript, Ruby, Python or C++.
+
+You can download a sample dictionary if you want to play with real data at https://seriousorange.com/sowpods.txt
+
+Example usage, using words from the sample dictionary above:
+
+> four_letters_in_common(“SPLIT”, dictionary_array)
+[“AMPLITUDE”, “AMPLITUDES”, “APLITE”, “APLITES”, “APLITIC”, “DISPLING”, “EARSPLITTING”, “HAIRSPLITTER”, “HAIRSPLITTERS”, “HAIRSPLITTING”, “HAIRSPLITTINGS”, “HAPLITE”, “HAPLITES”, “HAPLITIC”, “HOPLITE”, “HOPLITES”, “HOPLITIC”, “LAMPLIT”, “POPLITEAL”, “POPLITEI”, “POPLITEUS”, “POPLITIC”, “PRESPLIT”, “RESPLICE”, “RESPLICED”, “RESPLICES”, “RESPLICING”, “RESPLIT”, “RESPLITS”, “RESPLITTING”, “SHINSPLINTS”, “SIDESPLITTING”, “SIDESPLITTINGLY”, “SPLICE”, “SPLICED”, “SPLICER”, “SPLICERS”, “SPLICES”, “SPLICING”, “SPLICINGS”, “SPLIFF”, “SPLIFFS”, “SPLINE”, “SPLINED”, “SPLINES”, “SPLINING”, “SPLINT”, “SPLINTED”, “SPLINTER”, “SPLINTERED”, “SPLINTERIER”, “SPLINTERIEST”, “SPLINTERING”, “SPLINTERS”, “SPLINTERY”, “SPLINTING”, “SPLINTLIKE”, “SPLINTS”, “SPLINTWOOD”, “SPLINTWOODS”, “SPLISH”, “SPLISHED”, “SPLISHES”, “SPLISHING”, “SPLIT”, “SPLITS”, “SPLITTED”, “SPLITTER”, “SPLITTERS”, “SPLITTING”, “SPLITTINGS”, “SPLITTISM”, “SPLITTISMS”, “SPLITTIST”, “SPLITTISTS”, “TRIPLITE”, “TRIPLITES”, “UNSPLINTERABLE”, “UNSPLIT”, “UPLIT”, “WASPLIKE”, “WISPLIKE”]
+
+> four_letters_in_common(“SPLIT”, dictionary_array).length 82
