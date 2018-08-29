@@ -10,7 +10,6 @@ puts "To get the solution press S"
   input = /^[a-zA-Z]$/
 
   puts "Guess the word: #{anagram}"
-  puts word
 
   while !guessed
     answer = gets.chomp.downcase
